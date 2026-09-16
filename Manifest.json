@@ -1,15 +1,39 @@
 {
-  "name": "Cyber Pulse Mobile",
+  "name": "Cyber Pulse Mobile - Arcade Game",
   "short_name": "CyberPulse",
+  "description": "Juego hipercasual arcade de naves espaciales, esquivas y batallas contra jefes en estética neón synthwave.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait-primary",
   "background_color": "#030712",
   "theme_color": "#030712",
+  "lang": "es-419",
+  "dir": "ltr",
+  "categories": ["games", "arcade", "action"],
+  "prefer_related_applications": false,
   "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
     {
       "src": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cyber Pulse Mobile Gameplay"
+    }
+  ]
+}
